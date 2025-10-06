@@ -1,0 +1,33 @@
+:root{
+  --primary-color: #0066ff;
+  --secondary-color: #001f3f;
+  --text-color: #333333;
+  --font-family: 'Poppins', sans-serif;
+}
+
+body{
+  font-family: var(--font-family);
+  color: var(--text-color);
+}
+
+.jumbotron.bg-primary{
+  background-color: var(--primary-color) !important;
+}
+
+.card-img-top{
+  height: 220px;
+  object-fit: cover;
+}
+
+.timeline-item h5{
+  margin-bottom: 0.25rem;
+}
+
+footer{
+  margin-top: 2rem;
+}
+
+/* Responsividade */
+@media (max-width: 576px){
+  .card-img-top{ height: 180px; }
+}
